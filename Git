@@ -21,3 +21,4 @@ When we operate with Git, our files can be either tracked or untracked.Each trac
 
  *Commited :
   When a file gets committed, the changes made to it are safely stored in a snapshot in the Git directory. 
+When committing new files or changes with git commit, the user is asked to provide a commit message. If an empty commit message is entered, the commit will be aborted
