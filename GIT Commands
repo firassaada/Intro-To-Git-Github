@@ -1,7 +1,9 @@
-git config --global user.email "me@example.com"
-git config --global user.name "My name"
-
+The Git config command is used to set the values to identify who made changes to Git repositories:
+ git config --global user.email "me@example.com"
+ git config --global user.name "My name"
+ git config -l       : Shows info about the core and the user
 git init
 git add
 git commit
 git status
+git log            : It displays all local commit messages made in you repo since its creation with other info about the commit 
