@@ -1,0 +1,12 @@
+
+A Git project will consist of three sections:
+*The Git directory :
+The Git directory contains the history of all the files and changes.
+
+*The working tree  :
+The working tree contains the current state of the project, including any
+changes that we've made. 
+
+*The staging area  :
+the staging area contains the changes that
+have been marked to be included in the next commit. 
