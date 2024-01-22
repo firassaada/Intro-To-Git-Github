@@ -1,7 +1,0 @@
-A Version Control System keeps track of the changes that we make to our files.
-By using a VCS, we can know when the changes were made and who made them.
-It also lets us easily revert a change if it turned out not to be a good idea. 
-A VCS even provides a mechanism to allow the author of a commit to record
-why the change was made, including what bugs, tickets or issues were fixed by
-the change. This information can be a lifesaver when trying to understand a
-complex series of changes, or to debug some obscure issue. 
