@@ -1,9 +1,16 @@
 The Git config command is used to set the values to identify who made changes to Git repositories:
  git config --global user.email "me@example.com"
  git config --global user.name "My name"
- git config -l       : Shows info about the core and the user
-git init
-git add
-git commit
-git status
-git log            : It displays all local commit messages made in you repo since its creation with other info about the commit 
+ git config -l : Shows info about the core and the user
+git add        : Stages changes for commit.
+git  add -p    : Shows you the changes to be staged (it will ask you if you want to stage them or not)
+git commit -m  : Commits staged changes with a specified message.
+git commit -a -m: Stages any changes to tracked files and commit them in one step. 
+git diff       : shows the changes made to tracked files that are not already staged
+git diff --staged: Shows you the changes made to staged file(but not commited yet)
+git init       : Initializes a new Git repository.
+git log:       : Displays a log of all local commit messages and related information since the repository's creation.
+git log -p     : It shows all the commit info(shows the changes made with each commit)
+git log --stat : It shows you the number of modifications(insetions&deletions) within each commit
+git show 'commit-id': shows you the changes made within a specific commit
+git status:    : Shows the status of changes as untracked, modified, or staged.
