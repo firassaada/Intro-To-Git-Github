@@ -15,8 +15,8 @@ git init       : Initializes a new Git repository.
 git log:       : Displays a log of all local commit messages and related information since the repository's creation.
 git log -p     : It shows all the commit info(shows the changes made with each commit)
 git log --stat : It shows you the number of modifications(insetions&deletions) within each commit
-git merge 'branch':
-git merge --abort :
+git merge 'branch':joins changes from one branch into the existing branch you're working with .
+git merge --abort :Can only be used after merge conflicts. This command will abort the merge and try to go back to the pre-merge state.
 git mv         : It is similar to the Linux `mv` command. This command can move or rename a file, directory, or symlink.
 git rm         : (~same as using rm then git add)
 git show 'commit-id': shows you the changes made within a specific commit
