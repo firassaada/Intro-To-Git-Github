@@ -4,6 +4,7 @@ The Git config command is used to set the values to identify who made changes to
  git config -l : Shows info about the core and the user
 git add        : Stages changes for commit.
 git  add -p    : Shows you the changes to be staged (it will ask you if you want to stage them or not)
+git branch     : Lists all branches of your repo
 git commit -m  : Commits staged changes with a specified message.
 git commit -a -m: Stages any changes to tracked files and commit them in one step. 
 git diff       : shows the changes made to tracked files that are not already staged
@@ -17,6 +18,8 @@ git rm         : (~same as using rm then git add)
 git show 'commit-id': shows you the changes made within a specific commit
 git status:    : Shows the status of changes as untracked, modified, or staged.
 git checkout  'files' : It undo the changes thare are not already staged (back to the state of the last staged file) 
+git checkout  'branch': It is used to move to another existing branch
+git checkout -b 'branch': It creates a ne branch then moves to it
 git reset      :It is used to undo the staging of your files.(inverse of git add)
 git commit --amend:It is used to make changes to your most recent commit and overwrite it .
 git revert HEAD:It makes a new commit which effectively rolls back the last commit.
