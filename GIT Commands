@@ -1,4 +1,4 @@
-The Git config command is used to set the values to identify who made changes to Git repositories:
+The Git config command is used to set the values to identify who made changes to Git repositories  ::
  git config --global user.email "me@example.com"
  git config --global user.name "My name"
  git config -l : Shows info about the core and the user
