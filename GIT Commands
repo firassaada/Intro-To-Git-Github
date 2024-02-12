@@ -1,9 +1,39 @@
 The Git config command is used to set the values to identify who made changes to Git repositories:
  git config --global user.email "me@example.com"
  git config --global user.name "My name"
- git config -l       : Shows info about the core and the user
-git init
-git add
-git commit
-git status
-git log            : It displays all local commit messages made in you repo since its creation with other info about the commit 
+ git config -l : Shows info about the core and the user
+git add        : Stages changes for commit.
+git  add -p    : Shows you the changes to be staged (it will ask you if you want to stage them or not)
+git branch     : Lists all branches of your repo
+git branch -r  : Lists remote branches and can be combined with other branch arguments to manage remote branches.
+git branch -d 'branch' : Deletes the existing branch(if it is fully merged)
+git branch -D 'branch' : Deletes the existing branch even if it is not fully merged  
+got clone      : It is used to create a copy of a remote repository into your local machine,including all of its files, commit history, and branches .
+git commit --amend:It is used to make changes to your most recent commit and overwrite it .
+git commit -m  : Commits staged changes with a specified message.
+git commit -a -m: Stages any changes to tracked files and commit them in one step. 
+git checkout  'files' : It undo the changes thare are not already staged (back to the state of the last staged file) 
+git checkout  'branch': It is used to move to another existing branch
+git checkout -b 'branch': It creates a ne branch then moves to it
+git diff       : shows the changes made to tracked files that are not already staged
+git diff --staged: Shows you the changes made to staged file(but not commited yet)
+git fetch      :  It is a Git command used to retrieve the latest changes from a remote repository without merging them into your local branch.
+git init       : Initializes a new Git repository.
+git log:       : Displays a log of all local commit messages and related information since the repository's creation.
+git log -p     : It shows all the commit info(shows the changes made with each commit)
+git log --stat : It shows you the number of modifications(insetions&deletions) within each commit
+git merge 'branch':joins changes from one branch into the existing branch you're working with .
+git merge --abort :Can only be used after merge conflicts. This command will abort the merge and try to go back to the pre-merge state.
+git mv         : It is similar to the Linux `mv` command. This command can move or rename a file, directory, or symlink.
+git rm         : (~same as using rm then git add)
+git pull       : Git pull is used to fetch the newest updates from a remote repository
+git push       : Git push is used to push commits from your local repo to a remote repo
+git show 'commit-id': shows you the changes made within a specific commit
+git status:    : Shows the status of changes as untracked, modified, or staged.
+git remote     : allows you to manage the set of repositories or “remotes” whose branches you track. 
+git remote -v  : It is similar to $ git remote, but adding the -v shows more information such as the remote URL.
+git remote show origin: Shows some information about a single remote repo.
+git remote update: Fetches updates for remotes or remote groups.
+git reset      :It is used to undo the staging of your files.(inverse of git add)
+git revert HEAD:It makes a new commit which effectively rolls back the last commit.
+git revert 'commit_id':makes a new commit which effectively rolls back the specified commit.

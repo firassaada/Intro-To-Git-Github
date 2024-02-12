@@ -1,10 +1,16 @@
+Branch: A pointer to a particular commit, representing an independent line of development in a project
+
 Commit: A command to make edits to multiple files and treat that collection of edits as a single change
 
 Commit files: A stage where the changes made to files are safely stored in a snapshot in the Git directory
 
+Commit ID: An identifier next to the word commit in the log
+
 Commit message: A summary and description with contextual information on the parts of the code or configuration of the commit change
 
 Diff: A command to find the differences between two files
+
+Fast-forward merge: A merge when all the commits in the checked out branch are also in the branch that's being merged
 
 Git: A free open source version control system available for installation on Unix based platforms, Windows and macOS
 
@@ -14,17 +20,27 @@ Git log: A log that displays commit messages
 
 Git staging area: A file maintained by Git that contains all the information about what files and changes are going to go into the next commit
 
+Head: This points to the top of the branch that is being used
+
+Master: The default branch that Git creates for when a new repository initialized, commonly used to place the approved pieces of a project
+
+Merge conflict: This occurs when the changes are made on the same part of the same file, and Git won't know how to merge those changes
+
 Modified files: A stage where changes have been made to a file, but the have not been stored or committed 
 
 Patch: A command that can detect that there were changes made to the file and will do its best to apply the changes
 
 Repository: An organization system of files that contain separate software projects 
 
+Rollback: The act of reverting changes made to software to a previous state 
+
 Source Control Management (SCM): A tool similar to VCS to store source code
 
 Stage files: A stage where the changes to files are ready to be committed 
 
 Tracked: A file’s changes are recorded
+
+Three-way merge: A merge when the snapshots at the two branch tips with the most recent common ancestor, the commit before the divergence
 
 Untracked: A file’s changes are not recorded
 
