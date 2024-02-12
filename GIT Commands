@@ -20,6 +20,7 @@ git diff --staged: Shows you the changes made to staged file(but not commited ye
 git fetch      :  It is a Git command used to retrieve the latest changes from a remote repository without merging them into your local branch.
 git init       : Initializes a new Git repository.
 git log:       : Displays a log of all local commit messages and related information since the repository's creation.
+git log --all  : Displays a log of all local and remote commit messages and related information since the repository's creation. 
 git log -p     : It shows all the commit info(shows the changes made with each commit)
 git log --stat : It shows you the number of modifications(insetions&deletions) within each commit
 git merge 'branch':joins changes from one branch into the existing branch you're working with .
