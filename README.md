@@ -10,7 +10,10 @@ This repository contains resources related to the "Introduction to Git & GitHub"
 
 ## Certificate 🎓
 
-Upon completion of the course, a certificate was issued. You can view the certificate [here](link_to_certificate).
+Upon completion of the course, a certificate was issued. You can view the certificate [here](https://coursera.org/share/c3df56efc79e62d20e452e1cbe1cb9fc).
+
+![image](https://github.com/firassaada/Intro-To-Git-Github/assets/94303698/7a2c0be0-929c-4c47-afb3-646c064d59ab)
+
 
 ## About the Course ℹ️
 
@@ -22,9 +25,7 @@ The "Introduction to Git & GitHub" course provides a comprehensive introduction 
 - Collaborating with others using GitHub
 - Pull requests, forking, and contributing to open-source projects
 
-## About the Certificate 🏅
 
-The certificate issued upon completion of the course serves as a recognition of your accomplishment and proficiency in using Git and GitHub for version control and collaboration purposes.
 
 ## License 📝
 
