@@ -28,6 +28,7 @@ git mv         : It is similar to the Linux `mv` command. This command can move 
 git rm         : (~same as using rm then git add)
 git pull       : Git pull is used to fetch the newest updates from a remote repository
 git push       : Git push is used to push commits from your local repo to a remote repo
+git puhs -f    :
 git show 'commit-id': shows you the changes made within a specific commit
 git status:    : Shows the status of changes as untracked, modified, or staged.
 git remote     : allows you to manage the set of repositories or “remotes” whose branches you track. 
