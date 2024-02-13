@@ -28,8 +28,10 @@ git mv         : It is similar to the Linux `mv` command. This command can move 
 git rm         : (~same as using rm then git add)
 git pull       : Git pull is used to fetch the newest updates from a remote repository
 git push       : Git push is used to push commits from your local repo to a remote repo
+git puhs -f    :
 git show 'commit-id': shows you the changes made within a specific commit
 git status:    : Shows the status of changes as untracked, modified, or staged.
+git rebase -i  :
 git remote     : allows you to manage the set of repositories or “remotes” whose branches you track. 
 git remote -v  : It is similar to $ git remote, but adding the -v shows more information such as the remote URL.
 git remote show origin: Shows some information about a single remote repo.
@@ -37,3 +39,4 @@ git remote update: Fetches updates for remotes or remote groups.
 git reset      :It is used to undo the staging of your files.(inverse of git add)
 git revert HEAD:It makes a new commit which effectively rolls back the last commit.
 git revert 'commit_id':makes a new commit which effectively rolls back the specified commit.
+
