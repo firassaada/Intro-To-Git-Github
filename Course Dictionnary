@@ -80,8 +80,32 @@ and stores the history of that code and configuration
 
 
 
+More info :
 
 
+A Git project will consist of three sections:
+*The Git directory :
+The Git directory contains the history of all the files and changes.
+
+*The working tree  :
+The working tree contains the current state of the project, including any
+changes that we've made. 
+
+*The staging area  :
+the staging area contains the changes that
+have been marked to be included in the next commit. 
+
+When we operate with Git, our files can be either tracked or untracked.Each track file can be in one of three main states, modified, staged or committed :
+ *Modified : 
+  If a file is in the modified state, it means that we've made changes to it that we haven't added or committed yet. 
+ 
+ *Staged   :
+  The next step is to stage those changes.When we do this, our modified files become stage files.
+  In other words,the changes to those files are ready to be committed to the project
+
+ *Commited :
+  When a file gets committed, the changes made to it are safely stored in a snapshot in the Git directory. 
+When committing new files or changes with git commit, the user is asked to provide a commit message. If an empty commit message is entered, the commit will be aborted
 
 
 You can merge pull requests by retaining the commits. Below is a list of pull request merge options that you can use when merging pull requests.
