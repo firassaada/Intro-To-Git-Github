@@ -1,4 +1,4 @@
-# Introduction to Git & GitHub Course Repository 🚀🚀
+# Introduction to Git & GitHub Course Repository 🚀
 
 This repository contains resources related to the "Introduction to Git & GitHub" course issued by Google. The course provides an overview of Git version control system and GitHub collaboration platform.
 
